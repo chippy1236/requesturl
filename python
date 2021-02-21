@@ -1,0 +1,34 @@
+print ( 'S57 - Python - Thực thi tệp từ xa- URL' )
+print ( 'bởi @ s57cyber https://github.com/s57cyber' )
+print ( "Tuyên bố từ chối trách nhiệm. Kho lưu trữ này chỉ dành cho mục đích nghiên cứu, việc sử dụng mã này là trách nhiệm của bạn. Tôi KHÔNG chịu trách nhiệm ... RỦI RO CỦA RIÊNG BẠN. Một lần nữa, TẤT CẢ các tệp có sẵn ở đây CHỈ dành cho mục đích GIÁO DỤC và / hoặc NGHIÊN CỨU . " )
+print ( "----------------------------------------------- ----- " )
+" \ n \ n "
+
+#! usr / bin / env python
+
+ yêu cầu nhập khẩu
+nhập khẩu  os
+
+# cho tệp lớn trong chunk
+# Lấy liên kết hoặc url
+#url = 'demo.exe'
+
+#r = request.get (url, stream = True)
+
+#with open ("demo.exe", "wb") dưới dạng Pypdf:
+
+# cho đoạn trong r.iter_content (chunk_size = 1024):
+
+# nếu đoạn:
+
+# Pypdf.write (chunk)
+
+
+url  =  'https://s57.in/wp-content/uploads/2020/05/s57-png.png'
+r  =  yêu cầu . get ( url , allow_redirects = True )
+
+# Lưu nội dung với tên.
+mở ( 'logo.png' , 'wb' ). write ( r . nội dung )
+
+#running Tệp
+hệ điều hành . startfile ( "logo.png" )
